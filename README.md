@@ -98,14 +98,7 @@
 - iOS Device/Simulator
 
 ### Installation
-```bash
-# Clone the repository
-git clone https://github.com/AntonyM1/Silque.git
-
-# Open the project
-cd Silque
-open Silque.xcodeproj
-```
+Download the latest Silque.ipa and sign it with your certificate.
 
 ### Configuration
 1. **Certificates**: Add your developer certificates in the app
@@ -117,9 +110,13 @@ open Silque.xcodeproj
 
 ## 🎨 Screenshots
 
-| Apps View | Signing View | Settings |
-|-----------|--------------|----------|
-| ![Apps](https://via.placeholder.com/200x400/1a1a1a/ffffff?text=Apps+View) | ![Signing](https://via.placeholder.com/200x400/2d2d2d/ffffff?text=Signing+View) | ![Settings](https://via.placeholder.com/200x400/3a3a3a/ffffff?text=Settings) |
+| IMG_1332 | IMG_1329 | IMG_1328 |
+|----------|----------|----------|
+| ![IMG_1332](IMG_1332.PNG) | ![IMG_1329](IMG_1329.PNG) | ![IMG_1328](IMG_1328.PNG) |
+
+| IMG_1327 | IMG_1326 | IMG_1325 |
+|----------|----------|----------|
+| ![IMG_1327](IMG_1327.PNG) | ![IMG_1326](IMG_1326.PNG) | ![IMG_1325](IMG_1325.PNG) |
 
 ---
 
@@ -136,7 +133,7 @@ All rights reserved.
 
 ## 👨‍💻 Author
 
-**Antony Marcelino** (@AntonyM1)
+**Antony Marcelino** (@AntonyM1)  
 - GitHub: [@AntonyMarcelino](https://github.com/AntonyMarcelino)
 - Project created: June 3, 2025
 - Last updated: June 15, 2025
