@@ -151,90 +151,57 @@ For any questions or issues:
 
 ## 🔄 Changelog
 
-# 📋 Changelog - Silque v1.0b5.1
+# 📋 Changelog - Silque v1.0b6
 
-**Release Date:** 2025-06-17 07:39:20 UTC  
-**Developer:** AntonyMarcelino  
+# 📱 AllAppsView - Universal App Management for Silque
 
----
+![Swift](https://img.shields.io/badge/Swift-5.0+-orange)
+![iOS](https://img.shields.io/badge/iOS-14.0+-blue)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-2.0+-green)
+![Version](https://img.shields.io/badge/Version-2.2.1-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🚀 What's New in This Release
+> **Comprehensive app management interface for Silque iOS - View, filter, search and manage all applications from all sources in one unified interface.**
 
-### 🌍 **Internationalization Improvements**
-- **Fixed extensive translation issues** 😭
-  - Corrected numerous text strings across the entire application
-  - Enhanced multilingual support for better user experience
-  - Improved consistency in translated content
+## 🌟 Overview
 
-### ⚡ **SigningView Performance Revolution**
-- **Massive speed optimization** 🏃‍♂️💨
-  - Implemented instant response system for signature actions
-  - Added intelligent caching mechanisms to prevent UI lag
-  - Optimized animations to prevent iPhone overheating
-  - Enhanced background processing for smoother user experience
-  - Reduced signature initiation time from ~300ms to **instantaneous**
+AllAppsView is a powerful SwiftUI component that provides a centralized interface for managing applications across multiple sources in the Silque ecosystem. It combines advanced filtering, real-time search, intelligent sorting, and seamless download management into a single, intuitive view.
 
-### 🎨 **Settings & UI Refinements**
-- **Streamlined Settings Architecture**
-  - Removed duplicate `accentColor` setting from main Settings
-  - Consolidated accent color management in `ProfileSheetView` for better organization
-  - Cleaned up redundant configuration options
 
-### 🌈 **FloatingTabBar Color Fix**
-- **Resolved theme compatibility issues**
-  - Fixed color rendering problems with solid color themes
-  - Improved default theme color consistency
-  - Enhanced visual harmony across different theme modes
+## ✨ Key Features
 
-### 📱 **Application Growth & Stability**
-- **Silque continues growing** 🌱📈
-  - Enhanced overall application stability
-  - Improved code architecture for future scalability
-  - Better performance across all iOS devices
-  - Reduced memory footprint for optimal user experience
+### 🔍 **Advanced Filtering System**
+- **4 Smart Filters**: All, Installed, Updates Available, Not Installed
+- **Real-time Counters**: Live statistics for each category
+- **Instant Response**: Zero-delay filter switching with smooth animations
 
----
+### 📊 **Flexible Sorting Options**
+- **By Name**: Alphabetical sorting with localization support
+- **By Source**: Group applications by their origin repository
+- **By Version**: Latest versions first for easy discovery
+- **By Recent**: Newest additions highlighted
 
-## 🔧 Technical Improvements
+### 🔍 **Universal Search Engine**
+- **Multi-field Search**: Name, Bundle ID, Source, Description
+- **Real-time Results**: Instant filtering as you type
+- **Smart Matching**: Case-insensitive with partial matching
 
-- ✅ **Smart caching system** - Prevents unnecessary UI recalculations
-- ✅ **Instant feedback mechanism** - Zero-delay user interactions
-- ✅ **Anti-overheating optimizations** - Balanced performance and device temperature
-- ✅ **Code consolidation** - Removed redundant settings and improved maintainability
-- ✅ **Theme engine enhancement** - Better color management across all UI components
+### 📝 **Rich App Descriptions**
+- **Intelligent Truncation**: 150-character smart cutoff
+- **Expandable Content**: "See more/See less" with smooth animations
+- **Adaptive Layout**: Maintains alignment regardless of description length
 
----
+### 📈 **Live Statistics Dashboard**
+- **Real-time Counters**: Total, Installed, Updates, Not Installed
+- **Visual StatCards**: Color-coded information cards
+- **Automatic Updates**: Refreshes on data changes
 
-## 🐛 Bug Fixes
+### ⬇️ **Integrated Download Management**
+- **Progress Tracking**: Real-time download progress visualization
+- **Status Indicators**: Downloading, Completed, Failed, Waiting, Cancelled
+- **Retry Functionality**: Smart error recovery with one-tap retry
+- **Queue Management**: Efficient handling of multiple downloads
 
-- 🔨 Fixed multiple translation strings causing user confusion
-- 🔨 Resolved FloatingTabBar color inconsistencies with certain themes
-- 🔨 Eliminated duplicate accent color settings causing configuration conflicts
-- 🔨 Improved SigningView responsiveness on older devices
-- 🔨 Enhanced overall application stability and performance
-
----
-
-## 📊 Performance Metrics
-
-| Component | Before | After | Improvement |
-|-----------|--------|-------|-------------|
-| Signature Response Time | ~300ms | **Instant** | **100%** |
-| UI Animation Smoothness | 80% | **95%** | **+15%** |
-| Memory Usage | Baseline | **-12%** | **Optimized** |
-| Translation Accuracy | 85% | **98%** | **+13%** |
-
----
-
-## 🙏 Thank You
-
-This release represents another step forward in making Silque the most reliable and user-friendly iOS app signing solution. Thank you to our growing community for your continued support and feedback!
-
-**Keep building, keep signing!** 🚀📱
-
----
-
-<div align="center">
 
 **Built with ❤️ in Swift & SwiftUI**
 
